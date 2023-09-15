@@ -10,7 +10,7 @@
 # Project life cycle:
 ### 1-The big picture:
 #### After collecting some information about the type of project we are working one, we found that it is an unbalanced multiclass classification problem related to classifying music genre #### based some important features.
-### 2-Data explorination:
+### 2-Data exploration:
 #### In this project we explored the train data set using numpy and panadas libraries.
 #### for the train dataset, we found that:
 #### Popularity column has 333 null values.
