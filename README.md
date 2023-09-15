@@ -12,8 +12,14 @@
 #### After collecting some information about the type of project we are working one, we found that it is an unbalanced multiclass classification problem related to classifying music genre #### based some important features.
 ### 2-Data explorination:
 #### In this project we explored the train data set using numpy and panadas libraries.
-#### We found that:
-#### -Data set has three categorical columns which are ‘cut’, ‘color’ and ‘clarity columns and they are all ordered.
+#### for the train dataset, we found that:
+#### Popularity column has 333 null values.
+#### Key has 1609 null values.
+#### Instrumentalness has 3541 null values.
+#### for the test data, we found that:
+#### Popularity column has 95 null values.
+#### Key has 405 null values.
+#### Instrumentalness has 836 null values.
 ### 3-Data Visualization:
 #### For visualizing data, we used boxplots to detect outliers and their values, scatter plot to investigate the relation between variables and heatmap for features’ correlation.
 #### Some insights we got after visualizing the train data using pandas, seaborn and matplotlib:
